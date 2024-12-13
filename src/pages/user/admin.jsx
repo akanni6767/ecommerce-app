@@ -11,6 +11,9 @@ const Admin = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
+    const admin_verified = sessionStorage.getItem('adminVerified');
+    
+
     return (
         <div className="flex h-screen overflow-hidden">
             <Helmet>
